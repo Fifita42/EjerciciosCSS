@@ -1,0 +1,23 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 100;
+}
+body{
+	background: radial-gradient(circle,#fff,#bbb);
+	padding: 15px;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 150px 150px 1fr;
+	/*fr es como flex row, una vez qu las medidas de 150
+	se alcanzan, el resto se le da a la tercera columna*/
+	grid-template-rows: 150px 150px 150px;
+	border: 3px solid #000;
+}
+
+.grid-item{
+	border: 1px solid #000;
+
+}
+

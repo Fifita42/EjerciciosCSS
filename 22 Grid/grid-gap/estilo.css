@@ -1,0 +1,22 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 100;
+}
+body{
+	background: radial-gradient(circle,#fff,#bbb)
+}
+
+.grid-container{
+	display: grid;
+	grid-template-rows: 150px 150px 150px;
+	grid-template-columns: 150px 150px 150px;
+	grid-gap: 5px;
+	/*separa todo*/
+	
+}
+
+.grid-item{
+	border: 2px solid #000;
+
+}
+

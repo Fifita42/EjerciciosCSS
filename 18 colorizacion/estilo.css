@@ -1,0 +1,22 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: : 100;
+	font-size: 20px;
+}
+
+.caja{
+	margin: 45px;
+	width: 200px;
+	height: 300px;
+	border: 5px solid red;
+	background: rgb(255,0,255);/*Red Green Blue*/
+	
+}
+/*
+.caja{
+	margin: 45px;
+	width: 200px;
+	height: 300px;
+	border: 5px solid red;
+	background: rgba(255,0,255,.1);	
+}

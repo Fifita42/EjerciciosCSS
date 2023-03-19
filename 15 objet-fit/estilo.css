@@ -1,0 +1,55 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: : 100;
+	font-size: 20px;
+}
+
+.caja{
+	margin: 25px;
+	width: 300px;
+	height: 400px;
+
+}
+.caja img{
+	height: 100%;
+	width: 100%;
+	border: 2px solid red;
+	object-fit: contain;
+}
+
+.caja2{
+	margin: 25px;
+	width: 300px;
+	height: 400px;
+
+}
+.caja2 img{
+	height: 100%;
+	width: 100%;
+	border: 2px solid red;
+	object-fit: cover;
+}
+.caja3{
+	margin: 25px;
+	width: 300px;
+	height: 400px;
+
+}
+.caja3 img{
+	height: 100%;
+	width: 100%;
+	border: 2px solid red;
+	object-fit: none;
+}
+.caja4{
+	margin: 25px;
+	width: 300px;
+	height: 400px;
+
+}
+.caja4 img{
+	height: 100%;
+	width: 100%;
+	border: 2px solid red;
+	object-fit: scale-down;
+}

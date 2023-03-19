@@ -1,0 +1,29 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 100;
+}
+
+.flex-container{
+	display: flex;
+	height: 100vh;
+	flex-wrap: wrap;
+}
+.flex-item{
+	background: #248;
+	color: #fff;
+	margin: 5px;
+	min-width: 200px;
+	text-align: center;
+	height: 100px;
+	flex-grow: 1;
+
+}
+.orange{
+	background: orange;
+	flex-basis: 200px;
+	/*Lo mismo que width pero mas importante que este.
+	solo es para los flex*/
+}
+.green{
+	background: green;
+}

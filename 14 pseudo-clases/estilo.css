@@ -1,0 +1,63 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: : 100;
+	font-size: 20px;
+}
+
+
+.hover{
+	padding:20px;
+	background:blue; 
+	transition: all 0.5s;
+}
+.hover:hover{
+	padding: 20px;
+
+	background: lightblue;
+}
+
+
+
+.link:link{
+	background: black;
+	color: blue;
+}
+.link:visited{
+	background: red;
+	color: pink;
+}
+
+.active{
+	width: 250px;
+	height: 250px;
+	background: red;
+	margin: 25px;
+	transition: all 1s;
+}
+.active:active{
+	background: blue;
+	width: 600px;
+	
+}
+.focus{
+		margin: 25px;
+		background: lightblue;
+		transition: background 0.4s, padding 0.4s;
+
+}
+.focus:focus{
+	background: blue;
+	padding: 20px;
+}
+
+.lang b:lang(en){
+	
+	background: lightblue;
+	padding: 20px;
+
+}
+
+/*.lang:focus{
+	background: blue;
+	padding: 20px;
+}

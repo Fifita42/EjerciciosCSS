@@ -1,0 +1,31 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 100;
+}
+
+.flex-container{
+	display: flex;
+	height: 100vh;
+	flex-wrap: wrap;
+}
+.flex-item{
+	background: #248;
+	color: #fff;
+	min-width: 200px;
+	text-align: center;
+	height: 100px;
+	flex-grow: 1;
+	width: 300px;
+	
+	
+
+}
+.orange{
+	background: orange;
+	flex-shrink: 2;
+	order: 4;
+	/*Es como el z index, pero para cajas flexibles*/
+}
+.green{
+	background: green;
+}

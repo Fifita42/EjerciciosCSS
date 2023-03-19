@@ -1,0 +1,27 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 100;
+}
+
+.flex-container{
+	display: flex;
+	height: 100vh;
+	flex-wrap: wrap;
+}
+.flex-item{
+	background: #248;
+	color: #fff;
+	margin: 5px;
+	min-width: 200px;
+	text-align: center;
+	height: 100px;
+	flex-grow: 1;
+	/*Flex grow agarra el espacio sobrante y lo reparte entre todas las
+	cajas.*/
+}
+.orange{
+	background: orange;
+}
+.green{
+	background: green;
+}

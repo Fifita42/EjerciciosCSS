@@ -1,0 +1,56 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 100;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+	/*Es para posicionar las cajas flex*/
+	/*
+	/*center: centra todo
+	  space-around: centra todo en margenes por igual lo mas lejos
+	  posible entre si
+	  space-evenly: los separa lo mas lejos posible en
+	  espacios iguales
+     esta el 
+     row: Por defecto
+     column: en columna
+     row-reverse: espejo
+	 column-reverse: lo mismo pero en espejo
+
+     */
+
+     flex-wrap: wrap;
+
+     /*
+     Esto adapta las cajas del contenedor sin cambiar sus tamaños
+     cuando modificamos el tamaño de la ventana
+     */
+
+     /*Estos dos se pueden acortar escribiendo:
+     flex-flow: column wrap;
+
+
+    */
+
+    /*Tambien esta flex-wrap: wrap-reverse que hace que en lugar de abajo, 
+    ballan arriba
+
+    */
+
+}
+.flex-item{
+	background: #248;
+	color: #fff;
+	margin: 5px;
+	height: 120px;
+	width: 120px;
+	text-align: center;
+}
+.orange{
+	background: orange;
+}
+.green{
+	background: green;
+}

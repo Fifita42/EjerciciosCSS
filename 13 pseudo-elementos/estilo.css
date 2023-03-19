@@ -1,0 +1,53 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: : 100;
+	font-size: 20px;
+}
+
+
+
+.texto {
+	padding: 20px; 
+	}
+
+.texto::first-line{
+	color:blue;
+	font-size: 2em; 
+}
+
+.texto2 {
+	padding: 20px; 
+	}
+
+.texto2::first-letter{
+	color:blue;
+	font-size: 2em; 
+}
+
+form {
+	margin: 100px auto;
+	display: block;
+	background-color: #555;
+	padding: 100px;
+	width: 50%;
+}
+
+input{
+	padding:6px;
+	width: 100%;
+}
+input::placeholder{
+	color:red;
+	font-size: 1.4em;
+	background: yellow;
+}
+
+.texto3 {
+	padding: 20px; 
+	}
+
+.texto3::selection{
+	color:red;
+	font-size: 1.4em;
+	background: yellow;
+}

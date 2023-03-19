@@ -1,0 +1,35 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 100;
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*Sus propiedades son:
+	flex-start
+	center: centra verticalmente en la pantalla;
+	flex-end: nos lo pone al final;
+	stretch: por defecto;
+	baseline: 
+	*/
+	/*cuando hay vcarias lineas, se usa aling-content
+	*/
+	height: 100vh;
+	align-content: flex-start;
+}
+.flex-item{
+	background: #248;
+	color: #fff;
+	margin: 5px;
+	height: 120px;
+	width: 120px;
+	text-align: center;
+}
+.orange{
+	background: orange;
+}
+.green{
+	background: green;
+}

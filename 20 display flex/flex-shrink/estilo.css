@@ -1,0 +1,32 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 100;
+}
+
+.flex-container{
+	display: flex;
+	height: 100vh;
+	flex-wrap: wrap;
+}
+.flex-item{
+	background: #248;
+	color: #fff;
+	min-width: 200px;
+	text-align: center;
+	height: 100px;
+	flex-grow: 1;
+	width: 300px;
+	
+	
+
+}
+.orange{
+	background: orange;
+	flex-shrink: 2;
+	/*Se usa en conjunto de flex grow y se utiliza para 
+	hacer que una caja seda mas espacio que las otras a la 
+	hora de repartirse el espacio sobrante*/
+}
+.green{
+	background: green;
+}

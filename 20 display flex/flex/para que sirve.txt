@@ -1,0 +1,3 @@
+flex: flex-grow, flex-shrink, flex-basis;
+
+se utiliza para escribir las 3 propiedades en un solo codigo
