@@ -1,0 +1,3 @@
+outline es un acortador de outline color, outline style etc que
+sirve para darle un borde a una caja pero que este borde no afecte a 
+ninguna otra caja.

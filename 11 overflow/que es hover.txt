@@ -1,0 +1,3 @@
+"nombreclase":hover{
+} sirve para que lo que señalamos con el mause reaccone de la manera
+que describimos dentro de ese codigo.

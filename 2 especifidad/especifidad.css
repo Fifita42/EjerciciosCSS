@@ -1,0 +1,15 @@
+.color-red{
+	color: red
+}
+
+h1{
+	color: blue
+}
+
+[ranciobixh="color-blue"]{
+	color: green
+}
+
+h1{
+	color: gray !important
+}

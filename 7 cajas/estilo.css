@@ -1,0 +1,19 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: : 100;
+	font-size: 30px;
+}
+h2{
+	display: inline;
+	height: 400px;
+	width: 100px;
+	/*estas 2 propiedadesa no funcionan*/
+}
+
+p{
+	height: 400px;
+	width: 100px;
+}
+
+
+

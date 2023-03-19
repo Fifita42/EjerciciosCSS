@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Primer paso CSS</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<h1><p>Mi primer tirulo editado con CSS</p></h1>
+<h2>Mi primer titulo h2 con CSS</h2>
+<input type="text" value="Hola">
+<button>HOLA</button>
+
+<p id="elemento">
+	El codigo se compone de:<br>
+
+	 selector{<br>
+	propiedad:valor;<br>
+            }<br>
+	El selector es QUE COSA es lo que queremos cambiar.
+	<br>
+	La propiedad es QUE COSA vamos a cambiar, el color, tamaño, etc.
+	<br>
+
+</p>
+
+<p class="parrafo25">
+	Que tipos de selectores existen:<br>
+
+	<span>Universal:</span> agregar un * <br><br>
+
+	De tipo: Por el nombre de los elementos, por ejemplo: button, h1, p, etc.<br><br>
+
+	Clases: Agregarlo por clasess por ejemplo, dentro del "p" agregamos class="clasequecreealazar" y en  el CSS 
+	para llamar a la clase se agrega .nombredelaclase<br><br>
+
+	ID: Dentro de lo que vamosa  seleccionar agregamos id="nombreX" y en el CSS agregamos #nombreX<br>
+	Los Id tienen que ser UNICOS para cada elemento, no se pueden volver a usar para otro elemento. <br><br>
+
+	Por atributo: Dentro de lo que vamos a seleccionar agregamos un atrinuto, por ejemplo ATRIBUTOX="SII" y en el selector de CSS copiamos lo mismo pero entre []<br><br>
+	Descendientes: Es para cambiar el contenido que esta dentro de otro contenido, por ejemplo, dentro de un h2 ponemos un p y en el selector de CSS para modificarlo ponemos el contenedor y luego la cosa a cambiar.<br><br>
+	Pseudo clases. Esto tambien funciona con las clases, por ejemplo si en la clase class="parrafo25" tenemos un p, en el selector escribimos .parrafo25 p y funcionaria.<br><br>
+
+	Pseudoclasaes: con hover, mientras el mause pase por una linea seleccionada, esta cambiara dependiendo de lo qu eseleccionamos.<br><br>
+</p>
+
+<p colores="rojo">
+	Propiedad mas sencilla: color
+</p>
+
+<p>
+	Valor mas sencillo: red;<br>
+	Pero es mas normal poner el codigo de color, que seria: 
+	#f00; para el rojo
+</p>
+
+</body>
+</html>

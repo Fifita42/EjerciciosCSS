@@ -1,0 +1,29 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: : 100;
+	font-size: 30px;
+}
+h2{
+	
+	background-color: #a22;
+	display: inline-block;
+
+	padding: 10px 50px;
+	height: 300px;
+	width: 300px;
+
+	box-sizing: border-box;
+
+	/*text-align: center;*/
+
+	/*Esto se puede acortar simplemente escribiendo
+	padding: 20px; para cambiar todos a la vez.
+	O sino, padding: 20px 30px; por ejemplo. el primero es 
+	arriba y abajo, el segundo es izquierda y derecha.
+	Sino padding: 1px 2px 3px 4px; Empezando por top, luego 
+	right, despues bottom y ultimo left como el sentido
+	del reloj.*/
+}
+
+
+

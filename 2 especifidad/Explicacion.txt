@@ -1,0 +1,3 @@
+En especifidad aplico un codigo que demuestra como funcuiona la jerarquia en css, a que codigo se le da
+prioridad a la hora de cambiar los atributos.
+Si pertenecen al mismo nivel de jerarquia, se termina con el ultimo de todos.

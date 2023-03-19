@@ -1,0 +1,12 @@
+Usa la propiedad text-transform para hacer el texto mayúsculas
+La propiedad text-transform en CSS se utiliza para cambiar la apariencia del texto. Es una forma conveniente de asegurarse de que el texto en una página web aparezca de manera consistente, sin tener que cambiar el contenido del texto de los elementos HTML reales.
+
+La siguiente tabla muestra como los diferentes valores de text-transform cambian el texto de ejemplo "Transformame".
+
+Valor	Resultado
+lowercase	"Transformame"
+uppercase	"TRANSFORMAME"
+capitalize	"Transformame"
+initial	Usa el valor predeterminado
+inherit	Utiliza el valor text-transform del elemento principal
+none	Predeterminado: Usa el texto original

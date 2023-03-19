@@ -1,0 +1,30 @@
+ *{
+	font-family: 'Dancing Script', cursive;
+	font-weight: : 100;
+	font-size: 30px;
+}
+h2{
+	
+	background-color: #a22;
+	display: inline-block;
+	padding: 100px;
+	text-align: center;
+	margin: 10px;
+	border-radius: 50%;
+	border: 10px solid blue;
+	/*border 4px solid etc es para modificar el borde, primero
+	aclaramos el tamaño, luego el estilo, luego el color.*/
+	box-shadow: 30px 10px 10px 0 black;
+	/*Box shadow nos permite darle sombra a la caja.
+	se divide en, moverden en eje X, moverse en eke Y,
+	cual es el tamaño del desenfoque, cuanto borde va a tener
+	(generalmente es 0) y despues el color.*/
+	text-shadow: 2px 2px 7px #fff,2px 2px 7px #fff;,2px 2px 7px #fff;
+	/*Text shadoew es lo mismo pero para las letras pero sin el
+	tamaño del borde que es el 3ro en box-shadow*/
+	transform: rotate(90deg);
+	/*Transform: rotate(90deg); es para rotar a 90 grados*/
+}
+
+
+

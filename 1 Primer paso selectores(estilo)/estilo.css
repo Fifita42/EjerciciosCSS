@@ -1,0 +1,27 @@
+ * {
+	color: red;
+}
+h1{
+	color:blue;
+}
+.parrafo25{
+	color:purple;
+}
+#elemento{
+	color: pink;
+}
+[colores="rojo"]{
+
+	color: orange;
+}
+h1 p{
+	color: gray;
+}
+.parrafo25 span{
+	color: black;
+}
+
+p:hover{
+	color: black;
+}
+
